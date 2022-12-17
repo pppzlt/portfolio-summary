@@ -1,96 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Summary</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Lernantino</h1>
-      <nav>
-        <ul>
-          <li><a href="#about_me">About Me</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#contact_me">Contact Me</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
-    <figure>
-      <img src="./assets/img/headerbackgroundpic.png" alt="background" />
-      <h2>Cool subtitle here!</h2>
-      <!-- <figcaption>FOOBOOBAZ</figcaption> -->
-    </figure>
-    <main>
-      <section class="card-column" id="about_me">
-        <div class="left-column">
-          <h2>About</h2>
-          <h2>Me</h2>
-        </div>
-        <div>
-          <p>
-            Helvetica put a bird on it church-key Blue Bottle banjo bespoke
-            brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
-            small batch wayfarers bicycle rights cliche craft beer gastropub
-            single-origin coffee Godard Carles you probably haven't heard of
-            them irony pickled kitsch synth sriracha gentrify literally heirloom
-            blog Truffaut paleo scenester
-          </p>
-          <p>
-            Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone
-            Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled
-            trust fund selvage art party letterpress Tumblr post-ironic kogi
-            Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore
-            freegan leggings Schlitz chambray organic tousled retro fap squid
-            street art church-key fashion axe Wes Anderson bespoke whatever
-            gentrify banh mi you probably haven't heard of them American Apparel
-            next level pug ugh.
-          </p>
-        </div>
-      </section>
-      <section class="card-column" id="work">
-        <div class="left-column"><h2>Work</h2></div>
-        <div>
-          <div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Summary</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Lernantino</h1>
+    <nav>
+      <ul>
+        <li><a href="#about_me">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact_me">Contact Me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  <figure>
+    <img src="./assets/img/headerbackgroundpic.png" alt="background" />
+    <h2>Cool subtitle here!</h2>
+    <!-- <figcaption>FOOBOOBAZ</figcaption> -->
+  </figure>
+  <main>
+    <section class="card-column" id="about_me">
+      <div class="left-column">
+        <h2>About</h2>
+        <h2>Me</h2>
+      </div>
+      <div class="paragraph">
+        <p>
+          Helvetica put a bird on it church-key Blue Bottle banjo bespoke
+          brunch Etsy authentic Marfa quinoa typewriter plaid direct trade
+          small batch wayfarers bicycle rights cliche craft beer gastropub
+          single-origin coffee Godard Carles you probably haven't heard of
+          them irony pickled kitsch synth sriracha gentrify literally heirloom
+          blog Truffaut paleo scenester
+        </p>
+        <p>
+          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone
+          Kickstarter Carles crucifix kitsch narwhal dreamcatcher pickled
+          trust fund selvage art party letterpress Tumblr post-ironic kogi
+          Thundercats Tonx Brooklyn Pitchfork Odd Future authentic normcore
+          freegan leggings Schlitz chambray organic tousled retro fap squid
+          street art church-key fashion axe Wes Anderson bespoke whatever
+          gentrify banh mi you probably haven't heard of them American Apparel
+          next level pug ugh.
+        </p>
+      </div>
+    </section>
+    <section class="card-column" id="work">
+      <div class="left-column">
+        <h2>Work</h2>
+      </div>
+      <div class="card-container">
+        <div class="card" id="first-row">
+          <img src="./assets/img/Surf Report.png" alt="surf">
+          <div class="title">
             <h3>Surf Report</h3>
             <p>MERN Stack</p>
           </div>
-          <div>
-            <h3>LED Wall</h3>
-            <p>Node/IoT</p>
+        </div>
+        <div id="second-row">
+          <div class="card">
+            <img src="./assets/img/LED WALL.png" alt="led wall">
+            <div class="title">
+              <h3>LED Wall</h3>
+              <p>Node/IoT</p>
+            </div>
           </div>
-          <div>
-            <h3>Calculator</h3>
-            <p>React/Javascript/CSS</p>
-          </div>
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <p>MERN Stack</p>
-          </div>
-          <div>
-            <h3>Run Buddy</h3>
-            <p>HTML/CSS</p>
+          <div class="card">
+            <img src="./assets/img/Calculator.png" alt="calculator">
+            <div class="title">
+              <h3>Calculator</h3>
+              <p>React/Javascript/CSS</p>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="card-column" id="contact_me">
-        <div class="left-column">
-          <h2>Contact</h2>
-          <h2>Me</h2>
+        <div id="third-row">
+          <div class="card">
+            <img src="./assets/img/Pastel Puzzles.png" alt="pastel puzzles">
+            <div class="title">
+              <h3>Pastel Puzzels</h3>
+              <p>MERN Stack</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/img/Run Buddy.png" alt="run buddy">
+            <div class="title">
+              <h3>Run Buddy</h3>
+              <p>HTML/CSS</p>
+            </div>
+          </div>
         </div>
-        
-          <ul>
-            <li><a href="#">555.555.5555</a></li>
-            <li><a href="#">lernantino@website.com</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Spotify</a></li>
-          </ul>
-        
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="card-column" id="contact_me">
+      <div class="left-column">
+        <h2>Contact</h2>
+        <h2>Me</h2>
+      </div>
+
+      <ul>
+        <li><a href="#">555.555.5555</a></li>
+        <li><a href="#">lernantino@website.com</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Spotify</a></li>
+      </ul>
+
+    </section>
+  </main>
+</body>
+
 </html>

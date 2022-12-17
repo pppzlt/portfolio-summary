@@ -3,6 +3,7 @@ html {
   padding: 0;
   font-size: 62.5%;
 }
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
@@ -11,6 +12,7 @@ body {
   /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
   font-size: 1.75rem;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -20,14 +22,19 @@ header {
   align-items: center;
   height: 10rem;
 }
+
 header h1 {
   padding: 0rem 1rem;
   background-color: #92cccd;
   color: #383d46;
   font-size: 5rem;
 }
+
+header nav {
+  width: 50rem;
+}
+
 header ul {
-  width: 40rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -35,17 +42,20 @@ header ul {
   list-style: none;
   font-size: 2rem;
 }
+
 header ul li {
   border-bottom: 3px solid #90c9ca;
 
   padding-bottom: 5px;
 }
+
 header ul li a {
   color: #90c9ca;
   font-weight: bold;
   text-decoration: none;
   /* align-items: center; */
 }
+
 figure {
   margin: 0;
 }
@@ -55,6 +65,7 @@ figure img {
   height: 20rem;
   /* position: relative; */
 }
+
 figure h2 {
   padding: 0.5rem 1rem;
   background-color: #92cccd;
@@ -65,12 +76,14 @@ figure h2 {
   top: 20rem;
   right: 1rem;
 }
+
 main {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   margin: 0;
 }
+
 section {
   padding: 2rem 10rem;
   display: flex;
@@ -82,23 +95,67 @@ section {
 
 .left-column {
   color: #445875;
-  flex-shrink:0;
+  flex-shrink: 0;
   /* flex-basis: 20%; */
   width: 200px;
-  border-right: 0.3rem solid #445875;
+  border-right: 0.7rem solid #445875;
   margin-right: 5rem;
 }
+
 .left-column h2 {
   font-size: 5rem;
-    margin-right: 0.5em;
-    margin-top: 0px;
-    margin-bottom:0px;
-    text-align: right;
+  margin-right: 0.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
 }
+
 #about_me p {
-  margin-top:0;
-    color: #445875;
-    font-size: 2rem;
+  margin-top: 0;
+  color: #445875;
+  font-size: 2rem;
+}
+
+
+.card-container {
+  display: block;
+}
+
+main img {
+  /* max-width: 100%;
+  max-height: 100%; */
+  height: 40rem;
+  width: 40rem;
+}
+
+#first-row img {
+  width: 80rem;
+}
+#second-row .card,
+#third-row .card{
+  display: inline-block;
+}
+/* #second-row card {
+  display: inline-block;
+  width: 50%;
+} */
+
+/* 
+.card {
+  flex: 1 1 50%;
+}
+
+#surf_report {
+  flex: 1 1 100%;
+} */
+.card {
+  position: relative;
+}
+.title {
+  position: absolute;
+  bottom: 10px;
+  background-color: #90c9ca;
+  padding: 0 2rem;
 }
 
 #contact_me {
