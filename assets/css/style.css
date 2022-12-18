@@ -1,6 +1,9 @@
 html {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  /* max-width: 150rem;
+  min-width: 140rem; */
+  width: 130rem;
   font-size: 62.5%;
 }
 
@@ -58,12 +61,12 @@ header ul li a {
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 figure img {
   width: 100%;
   height: 20rem;
-  /* position: relative; */
 }
 
 figure h2 {
@@ -73,7 +76,7 @@ figure h2 {
   color: #383d46;
   text-align: right;
   position: absolute;
-  top: 20rem;
+  bottom: 2rem;
   right: 1rem;
 }
 
@@ -85,12 +88,12 @@ main {
 }
 
 section {
-  padding: 2rem 10rem;
+  padding: 2rem 0rem;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   /* justify-content: space-between; */
-  border: 1rem dotted green;
+  /* border: 1rem dotted green; */
 }
 
 .left-column {
@@ -125,16 +128,18 @@ main img {
   /* max-width: 100%;
   max-height: 100%; */
   height: 40rem;
-  width: 40rem;
+  width: 50rem;
 }
 
 #first-row img {
-  width: 80rem;
+  width: 100.5rem;
 }
+
 #second-row .card,
-#third-row .card{
+#third-row .card {
   display: inline-block;
 }
+
 /* #second-row card {
   display: inline-block;
   width: 50%;
@@ -151,6 +156,7 @@ main img {
 .card {
   position: relative;
 }
+
 .title {
   position: absolute;
   bottom: 10px;
