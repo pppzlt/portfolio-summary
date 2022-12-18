@@ -130,7 +130,9 @@ main img {
   height: 40rem;
   width: 50rem;
 }
-
+main img:hover {
+  box-shadow: 0 4px 8px 0 #92cccd, 0 6px 20px 0 #92cccd;
+}
 #first-row img {
   width: 100.5rem;
 }
@@ -189,3 +191,4 @@ main img {
   font-weight: bold;
   text-decoration: none;
 }
+
