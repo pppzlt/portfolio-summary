@@ -1,9 +1,9 @@
 html {
   margin: 0 auto;
   padding: 0;
-  max-width: 130rem;
-  min-width: 100rem;
-  /* width: 130rem; */
+  /* max-width: 130rem;
+  min-width: 120rem; */
+  width: 130rem;
   font-size: 62.5%;
 }
 
@@ -96,7 +96,7 @@ section {
 .left-column {
   color: #445875;
   flex-shrink: 0;
-  width: 200px;
+  width: 20rem;
   border-right: 0.7rem solid #445875;
   margin-right: 5rem;
 }
@@ -141,7 +141,7 @@ main img:hover {
 .card {
   position: relative;
   filter: blur(2px);
-  transition: .3s ease-in-out;
+  /* transition: .3s ease-in-out; */
 }
 
 .card:hover {
@@ -150,7 +150,7 @@ main img:hover {
 
 .title {
   position: absolute;
-  bottom: 10px;
+  bottom: 2rem;
   background-color: #90c9ca;
   padding: 0 2rem;
 }
@@ -180,6 +180,22 @@ main img:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width:400px) {
-  
+
+
+@media screen and (max-width:1000px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  html {
+    font-size: 20%;
+  }
 }
