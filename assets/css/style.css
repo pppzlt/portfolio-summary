@@ -3,7 +3,7 @@ html {
   padding: 0;
   /* max-width: 130rem;
   min-width: 120rem; */
-  width: 130rem;
+  /* width: 130rem; */
   font-size: 62.5%;
 }
 
@@ -116,25 +116,39 @@ section {
 }
 
 .card-container {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  flex-basis:75%;
+}
+
+#first-row {
+  width: 100%;
 }
 
 main img {
-  height: 40rem;
-  width: 50rem;
+  max-height: 100%;
+  max-width: 100%;
+  /* object-fit: ; */
+  height: 100%;
+  width: 100%;
+  /* height: 40rem; */
+  /* width: 50rem; */
   border: 0.4rem solid #90c9ca;
 }
 
-#first-row img {
-  width: 100.5rem;
-}
+/* #first-row img {
+  max-height: 100%;
+  max-width: 100%;
+  //width: 100.5rem;
+} */
 
-main img:hover {
-  box-shadow: 0 4px 8px 0 #92cccd, 0 6px 20px 0 #92cccd;
+.card {
+  height: 14vh;
 }
 
 #second-row .card,
 #third-row .card {
+  width: 49.5%;
   display: inline-block;
 }
 
@@ -146,6 +160,10 @@ main img:hover {
 
 .card:hover {
   filter: blur(0);
+}
+
+main img:hover {
+  box-shadow: 0 4px 8px 0 #92cccd, 0 6px 20px 0 #92cccd;
 }
 
 .title {
@@ -197,5 +215,11 @@ main img:hover {
 @media screen and (max-width:600px) {
   html {
     font-size: 20%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  html {
+    font-size: 15%;
   }
 }
