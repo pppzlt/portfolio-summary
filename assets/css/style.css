@@ -199,3 +199,9 @@ main img:hover {
     font-size: 20%;
   }
 }
+
+@media screen and (max-width:400px) {
+  html {
+    font-size: 15%;
+  }
+}
